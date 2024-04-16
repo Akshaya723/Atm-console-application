@@ -22,12 +22,7 @@ public class Bank {
             System.out.println("Invalid bank name or password!");
             return;
         }
-       /* String str = "yes";
-        while (str.equals("yes")) {*/
-            getBankDetails();
-        /*    System.out.println("Do you want to continue?yes/no");
-            str=sc.next();
-        }*/
+        getBankDetails();
     }
     void getBankDetails(){
         System.out.println("Name-"+BankName);
